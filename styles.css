@@ -7,11 +7,10 @@ body {
 }
 
 .logo-container {
-	position: relative; /* positioned relative to body or html element */
-	width: 1200px; /* of viewport */
+	position: relative;
+	width: 1200px;
 	margin: 20px auto;
 	height: 300px;
-/*	border: 1px solid black;*/
 }
 
 /****************
@@ -30,10 +29,9 @@ Logo - Letters
 .letter-container-lowercase {
 	float: left;
 	position: relative;
-	height: 60px; /* same height as orange triangle*/
+	height: 60px;
 	width: 60px;
 	margin: 15px 1px 0;
-/*	border: 1px solid black;*/
 }
 
 /****** Uppercase M ******/
@@ -109,7 +107,7 @@ Logo - Letters
 .y-lowercase {
 	position: relative;
 	float: left;
-	height: 60px; /* same height as orange triangle*/
+	height: 60px;
 	width: 60px;
 	padding-top: 10px;
 	margin-top: 15px;
@@ -156,7 +154,7 @@ Logo - Letters
 .d-lowercase {
 	float: left;
 	margin-left: -8px;
-	height: 90px; /* same height as orange triangle*/
+	height: 90px;
 	width: 60px;
 }
 
@@ -237,7 +235,7 @@ Logo - Letters
 
 .n-curve-container {
 	position: relative;
-	height: 27px; /* same height as orange triangle*/
+	height: 27px;
 	width: 60px;
 	margin-top: 10px;
 	overflow: hidden;
@@ -257,7 +255,7 @@ Logo - Letters
 /****** Uppercase A ******/
 
 .a-uppercase {
-	float: left; /* Seems to matter if float is before or after position */
+	float: left;
 	position: relative;
     height: 75px;
     width: 75px;
@@ -360,7 +358,6 @@ Logo - Letters
 	left: 75px;
 	height: 38px;
 	width: 15px;
-/*	margin-top: 10px;*/
 	background: #B1B1B1;
 	border-bottom-left-radius: 7px;
 }
@@ -370,9 +367,8 @@ Logo - Letters
 	position: relative;
 	top: -26px;
 	left: 31px;
-	height: 27px; /* same height as orange triangle*/
+	height: 27px;
 	width: 60px;
-/*	margin-top: 10px;*/
 	overflow: hidden;
 }
 
@@ -392,7 +388,7 @@ Logo - Letters
 .academy-y-lowercase {
 	position: relative;
 	float: left;
-	height: 60px; /* same height as orange triangle*/
+	height: 60px;
 	width: 60px;
 	padding-top: 10px;
 	margin: 15px 0 0 -7px;
@@ -407,7 +403,7 @@ Logo - Image
 	z-index: 10;
 	height: 160px;
 	width: 160px;
-	position: relative; /* Required to use positioning in child divs */
+	position: relative;
 	margin-top: 50px;
 	border-radius: 50%;
 	overflow: hidden;
@@ -462,7 +458,7 @@ Logo - Image
 	background-color: #FFF;
 	border-radius: 0 28px 0 0;
     /* Rotate div */
-	-o-transform: rotate(-65deg);
+	-o-transform: rotate(-65deg);  /* Opera */
     -ms-transform: rotate(-65deg); /* IE 9 */
     -webkit-transform: rotate(-65deg); /* Safari 3-8 */
     transform: rotate(-68deg);
@@ -492,155 +488,3 @@ Logo - Image
 	left: 28px;
 	background-color: #FFF;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	width: 160px;
-	position: relative; /* Required to use positioning in child divs */
-	margin-top: 50px;
-	border-radius: 50%;
-/*	position: absolute;
-	top: 100px;
-	left: 80%;*/
-	overflow: hidden;
-}
-
-.green-block {
-	z-index: 20;
-	display: inline-block;
-	height: 120px;
-	width: 80px;
-	position: absolute;
-	right: 50%;
-	background-color: #95B96A;
-}
-
-.light-blue-block {
-	z-index: 20;
-	display: inline-block;
-	height: 120px;
-	width: 80px;
-	position: absolute;
-	left: 50%;
-	background-color: #308FAE;
-}
-
-.dark-blue-block {
-	z-index: 20;
-	height: 50px;
-	width: 160px;
-	position: absolute;
-	top: 118px;
-	background-color: #2B5173;
-}
-
-.orange-block {
-	z-index: 30;
-	height: 60px;
-	width: 55px;
-	position: absolute;
-	top: 23%;
-	left: 35%;
-	background-color: #F07332;
-}
-
-.white-block-left {
-	z-index: 40;
-	height: 30px;
-	width: 170px;
-	position: absolute; /*Have to position it for it to show with z-index*/
-	top: 58px;
-	right: 27px;
-	background-color: #FFF;
-	border-radius: 0 28px 0 0;
-    /* Rotate div */
-	-o-transform: rotate(-65deg);
-    -ms-transform: rotate(-65deg); /* IE 9 */
-    -webkit-transform: rotate(-65deg); /* Safari 3-8 */
-    transform: rotate(-65deg);
-}
-
-.white-block-right {
-	z-index: 40;
-	height: 30px;
-	width: 170px;
-	position: absolute; 
-	top: 65px;
-	left: 33px;
-	background-color: #FFF;
-    /* Rotate div */
-	-o-transform: rotate(65deg); /* Opera */
-    -ms-transform: rotate(65deg); /* IE 9 & Edge */
-    -webkit-transform: rotate(65deg); /* Safari 3-8 & Chrome*/
-    transform: rotate(65deg);
-}
-
-.white-block-middle {
-	z-index: 40;
-	height: 30px;
-	width: 100px;
-	position: absolute; 
-	top: 94px;
-	left: 28px;
-	background-color: #FFF;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
